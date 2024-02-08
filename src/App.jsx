@@ -23,7 +23,6 @@ const App = () => {
       <section id="Contacto">
         <Contact/>
       </section>
-      {/* <Test/> */}
     </div>
   );
 };
