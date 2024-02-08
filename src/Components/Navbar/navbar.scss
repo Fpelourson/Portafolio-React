@@ -1,0 +1,51 @@
+@import "../../app.scss";
+
+.navbar{
+    height: 100px;
+
+    .wrapper{
+        max-width: 1620px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        
+        @include mobile{
+            justify-content: flex-end;
+        }
+
+        
+
+        .social{
+            display: flex;
+            gap: 20px;
+            img{
+                width: 28px;
+                height: 28px;
+            }
+
+            @include mobile{
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+// @media (max-width:1420px){
+//     .navbar{
+//         height: 80px;
+
+//         .wrapper{
+//             max-width: 1300px;
+
+//             .social{
+//                 gap: 15px;
+//                 img{
+//                     width: 16px;
+//                     height: 16px;
+//                 }
+//             }
+//         }
+//     }
+// }

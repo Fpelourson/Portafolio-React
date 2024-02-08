@@ -1,0 +1,99 @@
+@import "../../app.scss";
+
+.aboutMe{
+    position: sticky;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: orange;
+    background-color: black;
+
+    @include mobile{
+        top: 25%;
+    }
+    
+    h1{
+        font-size: 72px;
+
+        @include mobile{
+            font-size: 46px;
+        }
+    }
+    .container{
+        display: flex;
+
+        @include mobile{
+            flex-direction: column;
+        }
+
+        .imgContainer{
+            width: 50%;
+            
+            @include mobile{
+                display: none;
+            }
+
+            img{
+                width: 100%;
+                border-radius: 50%;
+                
+            }
+        }
+        .textContainer{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            letter-spacing: 5px;
+            margin-top: 5rem;
+
+            @include mobile{
+                margin-top: 1rem;
+                width: 100%;
+            }
+
+
+            h2{
+                margin: 2rem;
+                font-size: 40px;
+
+                @include mobile{
+                    font-size: 20px;
+                }
+            }
+            p{  
+                font-size: 25px;
+                padding: 0 2rem;
+
+                @include mobile{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    
+    
+}
+
+// @media (max-width:1420px){
+//     .aboutMe{
+//         h1{
+//             font-size: 52px;
+//         }
+//         .container{
+//             .imgContainer{
+
+//             }
+//             .textContainer{
+//                 margin-top: 5rem;
+//                 h2{
+//                     font-size: 28px;
+//                 }
+//                 p{
+//                     font-size: 18px;
+//                 }
+//             }
+//         }
+        
+//     }
+// }
