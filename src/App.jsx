@@ -1,6 +1,5 @@
 import Navbar from "./Components/Navbar/Navbar";
 import "./app.scss";
-import Test from "./Test";
 import Hero from "./Components/Hero/Hero";
 import Portafolio from "./Components/Portafolio/Portafolio";
 import Contact from "./Components/Contact/Contact";
