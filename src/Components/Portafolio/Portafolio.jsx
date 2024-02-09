@@ -6,7 +6,7 @@ const items = [
   {
     id: 1,
     title: "React Ecommerce",
-    img: "./public/captura.png",
+    img: "/public/captura.png",
     desc: "Sitio web creado con React Vite, utilizando la libreria de Chakra UI y enviando los datos a Firebase para completar la compra",
     rut: "https://dev-computacion.vercel.app/",
     git: "https://github.com/Fpelourson/React-Coderhouse",
@@ -14,7 +14,7 @@ const items = [
   {
     id: 2,
     title: "Saber es clave",
-    img: "./public/saber.png",
+    img: "/public/saber.png",
     desc: "Es un juego de preguntas y respuetas, utilizando JavaScrip y CSS",
     rut: "https://saber-es-clave.netlify.app/",
     git: "https://github.com/Fpelourson/Coderhouse",
@@ -22,7 +22,7 @@ const items = [
   {
     id: 3,
     title: "Clon Spotify",
-    img: "./public/a.png",
+    img: "/public/a.png",
     desc: "Clon Spotify realizado solo con HTML y CSS",
     rut: "https://spotify-clon-byfederico.netlify.app/",
     git: "https://github.com/Fpelourson/Clon-Spotify",

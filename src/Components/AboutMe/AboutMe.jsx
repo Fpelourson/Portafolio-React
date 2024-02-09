@@ -6,7 +6,7 @@ const AboutMe = () => {
       <h1>Sobre mi</h1>
       <div className="container">
         <div className="imgContainer">
-          <img src="./public/fp.jpg" />
+          <img src="/public/fp.jpg" />
         </div>
         <div className="textContainer">
           <h2>Soy Federico Pelourson</h2>
