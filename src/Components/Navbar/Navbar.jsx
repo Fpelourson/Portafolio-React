@@ -18,10 +18,10 @@ const Navbar = () => {
             <img src="./git.png"></img>
           </a>
           <a href="https://www.linkedin.com/in/federico-pelourson/" target="blank">
-            <img src="../public/linkedin.png"></img>
+            <img src="./linkedin.png"></img>
           </a>
           <a href="https://www.instagram.com/fedepelourson/" target="blank">
-            <img src="../public/instagram.jpg"></img>
+            <img src="./instagram.jpg"></img>
           </a>
         </div>
       </div>
