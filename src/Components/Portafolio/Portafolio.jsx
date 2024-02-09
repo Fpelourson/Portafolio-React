@@ -58,7 +58,7 @@ const Single = ({ item }) => {
             <p>{item.desc}</p>
             <div>
               <button className="demo" onClick={handleClick}>Ver Demo</button>
-              <button className="git" onClick={gitClick}><img src="../public/git.png"></img></button>
+              <button className="git" onClick={gitClick}><img src="/git.png"></img></button>
             </div>
             
           </motion.div>
