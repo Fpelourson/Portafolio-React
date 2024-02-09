@@ -28,6 +28,9 @@
             @include mobile{
                 margin-right: 10px;
             }
+            @include desktop{
+                margin-right: 1.5rem;
+            }
         }
     }
 }

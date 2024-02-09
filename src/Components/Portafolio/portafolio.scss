@@ -12,8 +12,9 @@
         color: orange;
         font-size: 36px;
         h1{
+            font-size: 4rem;
             @include mobile{
-                font-size: 46px
+                font-size: 2.5rem
             }
         }
 
@@ -70,7 +71,7 @@
                 }
 
                 h2{
-                    font-size: 72px;
+                    font-size: 3rem;
                     @include mobile{
                         font-size: 32px;
                         margin: auto;

@@ -18,6 +18,9 @@
         @include mobile{
             font-size: 46px;
         }
+        @include desktop{
+            font-size: 60px;
+        }
     }
     .container{
         display: flex;
@@ -55,14 +58,15 @@
 
             h2{
                 margin: 2rem;
-                font-size: 40px;
+                font-size: 2.8rem;
 
                 @include mobile{
                     font-size: 20px;
                 }
+                
             }
             p{  
-                font-size: 25px;
+                font-size: 1.3rem;
                 padding: 0 2rem;
 
                 @include mobile{
