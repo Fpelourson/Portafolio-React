@@ -6,6 +6,7 @@
     position: relative;
     background: linear-gradient(180deg, #1d1600, #533806);
     display: flex;
+    justify-content: space-between;
     
 
     .wrapper{
@@ -86,6 +87,7 @@
         position: absolute;
         top: 0;
         right: 5rem;
+        
 
         @include mobile{
             height: 50%;
@@ -100,7 +102,7 @@
             width: 100%;
             height: 100vh;
             object-fit: contain;
-            
+            padding-left: 3rem;
         }
     }
 
