@@ -37,6 +37,7 @@
         margin: 0 0 6rem 5rem;
         @include mobile{
             font-size: 18px;
+            margin: 0;
         }
         // @include desktop{
         //     margin: 5rem;
