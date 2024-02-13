@@ -7,19 +7,19 @@
         position: sticky;
         top: 0;
         left: 0;
-        padding-top: 50px;
+        padding-top: 5rem;
         text-align: center;
-        color: orange;
+        color: white;
         font-size: 36px;
         h1{
-            font-size: 4rem;
+            font-size: 3.5rem;
             @include mobile{
                 font-size: 2.5rem
             }
         }
 
         .progressBar{
-            height: 10px;
+            height: 5px;
             background-color: white;
 
             @include mobile{
@@ -52,6 +52,7 @@
             .imageContainer{
                 flex: 1;
                 height: 50%;
+                padding-top: 2rem;
             
                 img{
                     width: 100%;
@@ -72,6 +73,7 @@
 
                 h2{
                     font-size: 3rem;
+                    color: white;
                     @include mobile{
                         font-size: 32px;
                         margin: auto;
@@ -79,7 +81,7 @@
                 }
 
                 p{
-                    color: gray;
+                    color: rgb(214, 214, 214);
                     font-size: 20px;
                     @include mobile{
                         font-size: 12px;
@@ -88,30 +90,42 @@
                 }
 
                 .demo{
-                    background-color: orange;
+                    background-color: white;
                     border: none;
                     border-radius: 10px;
                     padding: 10px;
                     width: 200px;
                     cursor: pointer;
                     margin-top: 2rem;
+                    box-shadow: 0px 0px 10px 4px #9705f863;
+                    font-weight: bold;
 
                     @include mobile{
                         margin-top: 0;
                         margin-left: 1rem;
                     }
                 }
+                .demo:hover {  
+                    background-color: #9705f863;
+                    transition: 1s;
+                    color: white;
+                }
                 .git{
-                    width: 28px;
-                    background-color: black;
+                    background-color: white;
                     border: none;
+                    border-radius: 10px;
+                    padding: 10px;
+                    width: 150px;
                     cursor: pointer;
-                    margin-left: 2rem;
-                    
-                    img{
-                        width: 25px;
-                        
-                    }
+                    margin-top: 2rem;
+                    margin-left: 1rem;
+                    box-shadow: 0px 0px 10px 4px #9705f863;
+                    font-weight: bold;
+                }
+                .git:hover {  
+                    background-color: #9705f863;
+                    transition: 1s;
+                    color: white;
                 }
             }
     }

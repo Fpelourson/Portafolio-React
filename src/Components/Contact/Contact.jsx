@@ -1,5 +1,5 @@
 import "./contact.scss";
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 const variants = {
   initial: {
@@ -18,30 +18,34 @@ const variants = {
 
 const Contact = () => {
   return (
-    <motion.div className="contact" variants={variants} initial="initial" whileInView={"animate"}>
-      <motion.div className="textContainer" variants={variants}>
-        <motion.h1 variants={variants}>Contacto</motion.h1>
-        <motion.div className="item" variants={variants}>
-          <h2>Email</h2>
-          <span>fede_pelourson@hotmail.com</span>
+    <motion.div
+      className="contact"
+      variants={variants}
+      initial="initial"
+      whileInView={"animate"}
+    >
+      <motion.h1 variants={variants}>Contacto</motion.h1>
+      <motion.div className="container">
+        <motion.div className="textContainer" variants={variants}>
+          <motion.div className="item" variants={variants}>
+            <button>WhatsApp</button>
+          </motion.div>
+          <motion.div className="item" variants={variants}>
+            <button>Email</button>
+          </motion.div>
+          <motion.div className="item" variants={variants}>
+            <button>Linkedin</button>
+          </motion.div>
         </motion.div>
-        <motion.div className="item" variants={variants}>
-          <h2>Ubicación</h2>
-          <span>Rosario, Argentina</span>
-        </motion.div>
-        <motion.div className="item" variants={variants}>
-          <h2>Telefono</h2>
-          <span>+5492477674315</span>
+        <motion.div className="text">
+          <p>
+            Si quieres compartir ideas, colaborar, dar feedback o tenes una
+            propuesta laboral, contáctame por alguno de estos medios y respondo
+            a la brevedad.
+          </p>
+          <h3>¡Hasta Pronto!</h3>
         </motion.div>
       </motion.div>
-      <div className="formContainer">
-        <form>
-          <input type="text" required placeholder="Nombre" />
-          <input type="email" required placeholder="Email" />
-          <textarea rows={8} placeholder="Mensaje" />
-          <button>Enviar</button>
-        </form>
-      </div>
     </motion.div>
   );
 };
